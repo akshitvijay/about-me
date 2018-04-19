@@ -1,0 +1,17 @@
+.contactRow {
+    height: 50px;
+}
+
+
+.contactIcons {
+    padding: 5px;
+    padding-bottom: 0px;
+    font-size: 0.6em;
+    color: white;
+}
+
+.phoneno {
+    padding: 15px;
+    font-size: 0.4em;
+    color: white;
+}
