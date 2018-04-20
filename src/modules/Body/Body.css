@@ -1,12 +1,17 @@
 
   .body {
     background-color: #1f2833;
-    height: 200px;
+    height: 2000px;
     padding: 50px;
     color: white;
     display: flex;
     flex-direction: column;
     
+  }
+
+  .emptySpace {
+    background-color: #1f2833;
+    height: 40px;
   }
   
   .section {
