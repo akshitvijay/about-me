@@ -2,7 +2,16 @@
     background-color: #0B0C10;
     padding: 30px;
     padding-bottom: 30px;
-    color: white;
     display: flex;
     flex-direction: column;
+    color: white;
   }
+
+  .SectionTitle {
+    color: #66FCF1;
+  } 
+
+  .repoLink {
+    color: goldenrod;
+    size: 0.8em
+  } 
