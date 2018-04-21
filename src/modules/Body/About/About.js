@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './About.css';
+import aboutData from '../../../assets/aboutText';
 
 const About = () => {
     return(
@@ -8,7 +9,7 @@ const About = () => {
                 <h2>About Me</h2>
             </div>
             <div className="aboutBody">
-                <p> HI Im Akshit</p>
+                <p> {aboutData.about}</p>
             </div>
             
             
