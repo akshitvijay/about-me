@@ -9,6 +9,12 @@ export default [
             "valuelabel": "Intermediate"
         },
         {
+            "skillname": "ReactJS",
+            "value": "70",
+            "valuelabel": "Good"
+           
+        },
+        {
             "skillname": "Python",
             "value": "70",
             "valuelabel": "Good"
