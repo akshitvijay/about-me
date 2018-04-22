@@ -30,6 +30,9 @@ const ProjectCard = (props) => {
             <div className="SectionTitle">
                 <center><h1>{props.project.title}</h1></center> 
             </div>
+            <div className="screenshot">
+                <img src={props.project.screenshots} />
+            </div>
             <div>
                     <h3>Usecase:</h3> <p> {props.project.usecase}</p>
             </div>  
@@ -39,9 +42,7 @@ const ProjectCard = (props) => {
             <div className="repoLink">
                     <h2>{repoLink}</h2>           
             </div>   
-            <div className="screenshot">
-                <img src={props.project.screenshots} />
-            </div>
+
             <hr width="100%" color="darkgoldenrod"/>  
         </div>
     );
