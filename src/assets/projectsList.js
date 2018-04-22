@@ -5,7 +5,7 @@ import rightnow from './projects/rightnow.png';
 export default [
         {
             "title": "Github Watch",
-            "usecase": "The motive is to allow a rapidly scaling product company to keep better track of Production bugs npm sta(originally tracked on github) and creating social incentives for dev teams to fix bugs.",
+            "usecase": "The motive is to allow a rapidly scaling product company to keep better track of Production bugs(originally tracked on github) and creating social incentives for dev teams to fix bugs.",
             "techstack": "The frontend is written in javascript, with react for rendering and redux for state management. The Backend is a Flask App. ",
             "repo":"none",
             "screenshots":githawk
