@@ -1,7 +1,6 @@
 .skillCard {
     
-    padding: 30px;
-    padding-bottom: 30px;
+
     display: flex;
     flex-direction: column;
     color: white;
