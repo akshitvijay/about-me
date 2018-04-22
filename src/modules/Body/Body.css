@@ -2,6 +2,7 @@
   .body {
     background-color: #darkslategrey;
     height: inherit;
+    width: inherit;
     padding: 50px;
     color: white;
     display: flex;
@@ -20,6 +21,8 @@
     color: white;
   }
   
-  
+
+
+
   
   

@@ -1,7 +1,7 @@
 
 .App{ 
   background-color: darkslategrey;
-  padding: 30px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   font-family: 'Roboto Slab', serif;
