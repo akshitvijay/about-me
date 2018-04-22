@@ -13,5 +13,10 @@
 
   .repoLink {
     color: goldenrod;
-    size: 0.8em
+    align-self: center;
   } 
+  .screenshot {
+    
+    height: 700px;
+    align-self: center;
+  }

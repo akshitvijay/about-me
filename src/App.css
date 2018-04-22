@@ -1,7 +1,6 @@
 
 .App{ 
-  background-color: #0B0C10;
-
+  background-color: darkslategrey;
   padding: 30px;
   display: flex;
   flex-direction: column;

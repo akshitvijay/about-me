@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Image} from 'react';
 import classes from './ProjectCard.css';
 import FaGithubAlt from 'react-icons/lib/fa/github-alt';
 
@@ -16,6 +16,15 @@ const ProjectCard = (props) => {
     }
         
 
+    var imageurl="../../../../assets/projects/githawk.png";
+    imageurl="../../../../assets/projects/"+props.project.screenshots;
+    imageurl="../../../../assets/projects/githawk.png";
+
+    console.log(props.project.screenshots);
+    console.log(imageurl);
+
+
+
     return(
         <div className="projectcard">
             <div className="SectionTitle">
@@ -28,13 +37,11 @@ const ProjectCard = (props) => {
                     <h3>TechStack:</h3>  <p>{props.project.techstack} </p>
             </div>  
             <div className="repoLink">
-                    {repoLink}
-                    
-            </div>  
-            <div>
-                   {props.project.screenshots}
-            </div>  
-                <p> </p>
+                    <h2>{repoLink}</h2>           
+            </div>   
+            <div className="screenshot">
+                <img src={props.project.screenshots} />
+            </div>
             <hr width="60%" color="goldenrod"/>  
         </div>
     );

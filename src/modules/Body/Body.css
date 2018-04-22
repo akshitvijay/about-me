@@ -1,7 +1,7 @@
 
   .body {
-    background-color: #1f2833;
-    height: 1700px;
+    background-color: #darkslategrey;
+    height: inherit;
     padding: 50px;
     color: white;
     display: flex;
@@ -10,7 +10,7 @@
   }
 
   .emptySpace {
-    background-color: #1f2833;
+    background-color: darkslategrey;
     height: 40px;
   }
   
