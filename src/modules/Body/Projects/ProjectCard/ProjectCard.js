@@ -20,8 +20,8 @@ const ProjectCard = (props) => {
     imageurl="../../../../assets/projects/"+props.project.screenshots;
     imageurl="../../../../assets/projects/githawk.png";
 
-    console.log(props.project.screenshots);
-    console.log(imageurl);
+    //console.log(props.project.screenshots);
+    //console.log(imageurl);
 
 
 

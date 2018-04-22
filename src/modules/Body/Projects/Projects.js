@@ -13,8 +13,8 @@ class Projects extends React.Component {
         //console.log(projectData);
         for (var key in Object.keys(projectData)) {
             var data = projectData[key];
-            console.log("data");
-            console.log(data);
+            //console.log("data");
+            //console.log(data);
             ProjectList.push(
                 <ProjectCard key={key} project={data} />
             );
