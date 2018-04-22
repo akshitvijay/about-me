@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://akshitvijay.github.io/about-me",
   "dependencies": {
+    "chart.js": "^1.1.1",
     "gh-pages": "^1.1.0",
     "react": "^16.3.2",
+    "react-chartjs": "^1.2.0",
     "react-dom": "^16.3.2",
     "react-icons": "^2.2.7",
     "react-scripts": "1.1.4"

@@ -1,20 +1,24 @@
-.about {
+.skills {
     background-color: #0B0C10;
     padding-bottom: 30px;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
    
   }
 
-  .AboutHeader {
+  .skillsHeader {
     width: inherit;
     background-color: darkgoldenrod;
     padding: 10px;
   }
 
-  .aboutBody {
+  .skillsBody {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+
   }

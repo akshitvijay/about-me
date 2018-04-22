@@ -42,7 +42,7 @@ const ProjectCard = (props) => {
             <div className="screenshot">
                 <img src={props.project.screenshots} />
             </div>
-            <hr width="60%" color="goldenrod"/>  
+            <hr width="100%" color="darkgoldenrod"/>  
         </div>
     );
 }

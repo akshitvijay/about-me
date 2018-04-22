@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Body.css';
 import About from './About/About';
 import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
 
 const Body = () => {
 
@@ -9,7 +10,11 @@ const Body = () => {
         <div className="body">  
                <About/>
                 <div className="emptySpace"/>
-               <Projects/>
+                <Skills/>
+                <div className="emptySpace"/>
+                <Projects/>
+               
+
         </div>
         
     );

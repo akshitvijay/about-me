@@ -1,5 +1,5 @@
-.projectcard {
-    background-color: #0B0C10;
+.skillCard {
+    
     padding: 30px;
     padding-bottom: 30px;
     display: flex;
@@ -7,18 +7,14 @@
     color: white;
   }
 
-  .SectionTitle {
-    color: #66FCF1;
-    font-size: 1.6em;
+  .skillName {
+    color: #ffffff;
+    padding-bottom: 20px;
+    align-self: center;
   } 
 
-  .repoLink {
+  .skillChart {
     color: goldenrod;
     align-self: center;
     font-size: 0.8em;
   } 
-  .screenshot {
-    
-    height: 700px;
-    align-self: center;
-  }
